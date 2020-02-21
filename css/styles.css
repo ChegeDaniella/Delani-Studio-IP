@@ -1,0 +1,25 @@
+.jumbotron {
+    min-height: 500px;
+    background-image: url(../images/backgrounds/h_img.jpg);
+}
+.home {
+    text-align: center;
+}
+.mouse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+#about {
+    text-align: center;
+}
+#services {
+    background-image: url(../images/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    padding-top: 7%;
+    color: white;
+}
