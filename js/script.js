@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#des").click(function(){
+        $("#show").toggle();
+        $("#hide").toggle();
+    });
+    $("#dev").click(function(){
+        $("#devshow").toggle();
+        $("#devhide").toggle();
+    });
+    $("#proman").click(function(){
+        $("#pmshow").toggle();
+        $("#pmhide").toggle();
+    });
+})
