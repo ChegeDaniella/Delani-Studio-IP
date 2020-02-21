@@ -36,12 +36,16 @@
 #pmhide {
     display:none;
 }
+#portfolio {
+    width :100%;
+    padding: 0%;
+    border: 2px solid white;
+}
 #contact {
     background-image: url(../images/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    background: ;
 }
-textarea {
-    background: none;
-}
+
