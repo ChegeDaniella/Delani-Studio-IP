@@ -34,17 +34,20 @@
 #pmhide {
     display:none;
 }
-#portfolio {
-    width :100%;
-    padding: 0%;
-    border: 2px solid white;
+#portfolio .container .row img {
+    width: 100%;
+}
+.height {
+    text-align: center;
 }
 #contact {
     background-image: url(../images/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    height: 480px;
+    height: 550px;
+    color: white;
+    padding-top: 4%;
 }
 input {
     background: none;
