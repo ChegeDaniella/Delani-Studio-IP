@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/script.js"></script> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    
     
     <title>Delani Studio</title>
 </head>
@@ -87,46 +88,53 @@
                     <div class="col-md-3">
                         <div class="img1">
                             <img src="images/portfolio/work1.jpg">
-                            <div class="text">Movies Selection</div>
+                            <div class="text1">Movies Selection</div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        
+                        <div class="img2">
                             <img src="images/portfolio/work2.jpg">
-                        
+                            <div class="text2">Colours and shapes</div>
+                        </div>
                     </div> 
                     <div class="col-md-3">
-                        
+                        <div class="img3">
                             <img src="images/portfolio/work3.jpg">
-                        
+                            <div class="text3">Security</div>
+                        </div>
                      </div>
                      <div class="col-md-3">
-                         
+                        <div class="img4">
                              <img src="images/portfolio/work4.jpg">
-                         
+                             <div class="text4">Darkness</div>
+                        </div> 
                      </div>
                 </div>
                     <br>
                     <div class="row">
                         <div class="col-md-3">
-                            
+                            <div class="img5">
                                 <img src="images/portfolio/work5.jpg">
-                            
+                                <div class="text5">Wellness</div>
+                            </div>
                         </div>
                         <div class="col-md-3">
-                            
+                            <div class="img6">
                                 <img src="images/portfolio/work6.jpg">
-                            
+                                <div class="text6">Age generator</div>
+                            </div>
                         </div> 
                         <div class="col-md-3">
-                            
+                            <div class="img7">
                                 <img src="images/portfolio/work7.jpg">
-                            
+                                <div class="text7">Burned-C</div>
+                            </div>
                          </div>
                          <div class="col-md-3">
-                             
+                            <div class="img8"> 
                                  <img src="images/portfolio/work8.jpg">
-                             
+                                 <div class="text8">Restaurant</div>
+                            </div> 
                          </div>
                     </div>
                 </div>    
@@ -135,11 +143,11 @@
     <br>
         <div id="contact">
             <h3>CONTACT US</h3><br>
-            <form>
-                <input type="text" id="name" placeholder="Name...">
-                <input type="email" id="email" placeholder="Email.."><br><br>
-                <textarea name="message" rows="10" cols="80" placeholder="Your message here"></textarea><br>
-                <input type="submit" onclick="mySubmit()" id="btn" value="submit" >
+            <form name="sForm" onclick="validation()" method="POST">
+                <input type="text" id="name" placeholder="Name..." required>
+                <input type="email" id="email" placeholder="Email.." required><br><br>
+                <textarea name="message" rows="10" cols="80" id="info" placeholder="Your message here" required></textarea><br>
+                <input type="submit"  id="btn" value="submit">
             </form>
         </div>
         <br>

@@ -6,7 +6,11 @@ This project is a website about **Delani Studios**. It tells the user about what
 
 ### Behaviou Driven Development
 1. Easy to navigate the website
-  -The first page helps with identifing what company the website is for
-  -Explains what they do 
-  -Photos showcasing previous works
-  
+  - The first page helps with identifing what company the website is for
+  - Explains what they do 
+  - Photos showcasing previous works
+2. Interractive Interface
+   - when click on the what to do the user is able to get a paragraph
+   -  The user is able to see the project name of images
+   - When a field is not filled the user will be notified to fill it.
+   -  

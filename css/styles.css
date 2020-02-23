@@ -37,17 +37,86 @@
 #portfolio .container .row img {
     width: 100%;
 }
-.text {
+.text1 {
     text-align: center;
     position: absolute;
-    top: 45%;
-    left: 40%;
-    right: 50%;
+    top: 35%;
+    left: 30%;
+    right: 30%;
     border: 2px solid white;
     width: 100px;
     background-color: white;
-    
 }
+.text2 {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    right: 30%;
+    border: 2px solid white;
+    width: 100px;
+    background-color: white;
+}       
+.text3 {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    right: 30%;
+    border: 2px solid white;
+    width: 100px;
+    background-color: white;
+}       
+.text4 {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    right: 30%;
+    border: 2px solid white;
+    width: 100px;
+    background-color: white;
+}       
+.text5 {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    right: 30%;
+    border: 2px solid white;
+    width: 100px;
+    background-color: white;
+}        
+.text6 {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    right: 30%;
+    border: 2px solid white;
+    width: 100px;
+    background-color: white;
+}        
+.text7 {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    right: 30%;
+    border: 2px solid white;
+    width: 100px;
+    background-color: white;
+}        
+.text8 {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    right: 30%;
+    border: 2px solid white;
+    width: 100px;
+    background-color: white;
+}        
 .height {
     text-align: center;
 }
