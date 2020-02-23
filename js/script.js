@@ -11,12 +11,14 @@ $(document).ready(function(){
         $("#pmshow").toggle();
         $("#pmhide").toggle();
     });
-    // $(".img1").hover(function(){
-    //     $(this).css('opacity','.4');
+    $('.text').hide();
+    $('.img1').animate({
+        opacity:1
         
-    // });
-    $('.img1').mouseover(function(){
-        $(this).css('opacity','.2');
-    }).mouseout(function(){
-        $(this).css('opacity','1');
-    })});
+    });
+    $('.img1').hover(function() {
+        $(this).find('.text').fadeIn(300);
+      }, function() {
+        $(this).find('.text').fadeOut(100);
+      });
+});
