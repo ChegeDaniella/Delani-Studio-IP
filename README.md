@@ -10,7 +10,12 @@ This project is a website about **Delani Studios**. It tells the user about what
   - Explains what they do 
   - Photos showcasing previous works
 2. Interractive Interface
-   - when click on the what to do the user is able to get a paragraph
-   -  The user is able to see the project name of images
-   - When a field is not filled the user will be notified to fill it.
-   -  
+  - when click on the what to do the user is able to get a paragraph
+  - The user is able to see the project name of images
+  - When a field is not filled the user will be notified to fill it.
+
+## Technologies used
+In the making of this web based application the languages used were HTML,CSS and javascript.Javascript and the jQuery library was in charge of the back-end development.
+
+# contact information.
+Email:chegedaniella@gmail.com
