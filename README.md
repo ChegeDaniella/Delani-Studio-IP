@@ -19,3 +19,7 @@ In the making of this web based application the languages used were HTML,CSS and
 
 # contact information.
 Email:chegedaniella@gmail.com
+
+# License
+MIT License
+copyright(c) 2020 Daniella Wangechi Chege
