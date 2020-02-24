@@ -62,7 +62,8 @@ $(document).ready(function(){
 //   var email=document.getElementById("email").value();
 //   alert("Dear,"+" "+name+"we have received your message.Thank you for reaching out to us")
 // }    
-// function validation() {
+// function validation(event) {
+//   event.preventDefault();
 //   ​
 //   var x=document.forms["sForm"]["name"].value;
 //   if (x==null || x=="")
@@ -83,4 +84,31 @@ $(document).ready(function(){
 //       return false;
 //       }
 //     }
+document.getElementById("button").onclick =function(){
+  var name = ""
+  var email = ""
+  var comment = ""
+  
+  name=document.getElementById("name").value
+  email=document.getElementById("email").value
+  comment = document.getElementById("info").value
+  if( name == ""){
+    alert("please key in your name")
+    return false
+  }
+  if( email == "" ){
+    alert("please key in your mail")
+    return false
+  }
+  if( comment == ""){
+    alert("please key in comment")
+  }
+  else{
+    alert( "thanks " +name+ "we have recieved your cooment")
+  }
+ 
+
+}
+
+  
   
