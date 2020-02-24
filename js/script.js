@@ -80,7 +80,6 @@ document.getElementById("button").onclick =function(){
   else{
     alert( "thanks " +name+ "we have recieved your cooment")
   }
- 
 
 }
 
