@@ -57,33 +57,7 @@ $(document).ready(function(){
         $(this).find('.text8').fadeOut(100);
     });
 });
-// function validation(){
-//   var name=document.getElementById("name").value();
-//   var email=document.getElementById("email").value();
-//   alert("Dear,"+" "+name+"we have received your message.Thank you for reaching out to us")
-// }    
-// function validation(event) {
-//   event.preventDefault();
-//   ​
-//   var x=document.forms["sForm"]["name"].value;
-//   if (x==null || x=="")
-//     {
-//     alert("Name must be filled out");
-//     return false;
-//     }
-//   ​
-//   var y=document.forms["sForm"]["email"].value;
-//   if (y==null || y=="") {
-//     alert("Email must be filled out");
-//     return false;
-//     }
-//   ​
-//     var z=document.forms["sForm"]["subject"].value;
-//     if (z==null || z=="") {
-//       alert("Please type your message");
-//       return false;
-//       }
-//     }
+
 document.getElementById("button").onclick =function(){
   var name = ""
   var email = ""
