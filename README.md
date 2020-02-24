@@ -17,5 +17,11 @@ This project is a website about **Delani Studios**. It tells the user about what
 ## Technologies used
 In the making of this web based application the languages used were HTML,CSS and javascript.Javascript and the jQuery library was in charge of the back-end development.
 
+https://chegedaniella.github.io/Delani-Studio-IP/.
+
 # contact information.
 Email:chegedaniella@gmail.com
+
+# License
+MIT License
+copyright(c) 2020 Daniella Wangechi Chege
