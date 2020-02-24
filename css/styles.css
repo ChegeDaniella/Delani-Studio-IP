@@ -46,6 +46,7 @@
     border: 2px solid white;
     width: 100px;
     background-color: white;
+    display: none;
 }
 .text2 {
     text-align: center;
@@ -56,6 +57,7 @@
     border: 2px solid white;
     width: 100px;
     background-color: white;
+    display: none;
 }       
 .text3 {
     text-align: center;
@@ -66,6 +68,7 @@
     border: 2px solid white;
     width: 100px;
     background-color: white;
+    display: none;
 }       
 .text4 {
     text-align: center;
@@ -76,6 +79,7 @@
     border: 2px solid white;
     width: 100px;
     background-color: white;
+    display: none;
 }       
 .text5 {
     text-align: center;
@@ -86,6 +90,7 @@
     border: 2px solid white;
     width: 100px;
     background-color: white;
+    display: none;
 }        
 .text6 {
     text-align: center;
@@ -96,6 +101,7 @@
     border: 2px solid white;
     width: 100px;
     background-color: white;
+    display: none;
 }        
 .text7 {
     text-align: center;
@@ -106,6 +112,7 @@
     border: 2px solid white;
     width: 100px;
     background-color: white;
+    display: none;
 }        
 .text8 {
     text-align: center;
@@ -116,6 +123,7 @@
     border: 2px solid white;
     width: 100px;
     background-color: white;
+    display: none;
 }        
 .height {
     text-align: center;
